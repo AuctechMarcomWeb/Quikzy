@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from html.kodesolution.com/2024/citycar-html/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Dec 2025 09:37:33 GMT -->
-
 <head>
   <meta charset="utf-8">
-  <title>Citycar | Taxi Business HTML Template | Home Page 01</title>
+  <title>Quikzy Cabs </title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -19,10 +17,59 @@
   <style>
     /* ===== Taxi 2026 Banner Style ===== */
 
+    .mobile-nav-toggler.light {
+      color: #0c0b0b;
+    }
+
+    .main-header .header-lower .logo-box {
+      padding: 12px 0;
+    }
+
+    .main-header .logo img {
+      height: 40px;
+    }
+
+    .header-style-one .header-lower .main-box .nav-outer {
+      justify-content: end;
+    }
+
+    .main-menu .navigation>li>a {
+      color: #030303;
+    }
+
+    .header-style-one .header-lower {
+      position: relative;
+      background-color: unset;
+    }
+
+    .about-section .content-column .inner-column {
+      padding-top: 0px;
+    }
+
+    .about-section {
+      padding: 80px 0 22px;
+      position: relative;
+    }
+
+    .service-section-three {
+      background-color: #f5f5f5;
+    }
+
+    .service-section-three {
+      padding: 80px 0 120px;
+    }
+
+    .benefit-section-two {
+      padding: 80px 0 54px;
+    }
+
+
+
+
     .tx26-hero-wrapper {
       overflow: hidden;
       position: relative;
-      padding: 60px 0;
+      padding: 140px 0;
       font-family: system-ui;
       background-image: url('images/1.jpg');
       background-position: center;
@@ -46,7 +93,7 @@
     /* content */
     .tx26-badge {
       background: #eef5ff;
-      padding: 4px 8px;
+      padding: 4px 18px;
       font-size: 14px;
       border-radius: 50px;
       font-weight: 600;
@@ -58,12 +105,12 @@
       font-size: 48px;
       font-weight: 800;
       line-height: 1.1;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       color: #fff;
     }
 
     .tx26-title span {
-      color: #fded0d;
+      color: #f1ad0d;
     }
 
     .tx26-subtitle {
@@ -199,6 +246,22 @@
         display: none;
       }
     }
+
+    @media (max-width: 991px) {
+      .tx26-hero-wrapper {
+        padding: 60px 0;
+      }
+    }
+
+    @media (max-width: 991.98px) {
+      .work-section {
+        padding-bottom: 50px;
+      }
+
+      .faqs-section .faq-column .inner-column {
+        padding-top: 0px;
+      }
+    }
   </style>
 </head>
 
@@ -206,91 +269,32 @@
 
   <div class="page-wrapper">
 
-
-
     <!-- Main Header-->
     <header class="main-header header-style-one">
-      <!-- Header Top -->
-      <div class="header-top">
-        <div class="auto-container">
-          <div class="inner-container">
-            <div class="top-left">
-              <!-- Info List -->
-              <ul class="list-style-one">
-                <li><i class="fal fa-mobile"></i> <a href="tel:01750050088">+01 7500 50088</a></li>
-                <li><i class="fal fa-envelope"></i> <a
-                    href="https://html.kodesolution.com/cdn-cgi/l/email-protection#620b0c040d2206170f1b16031a0b4c010d0f"><span
-                      class="__cf_email__"
-                      data-cfemail="51383f373e1135243c287c253029387f323e3c">[email&#160;protected]</span></a></li>
-              </ul>
-            </div>
-            <div class="top-right">
-              <ul class="social-icon-one">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-x"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- Header Top -->
       <div class="header-lower">
         <div class="auto-container">
           <!-- Main box -->
           <div class="main-box">
             <div class="logo-box">
-              <div class="logo"><a href="index-2.html"><img src="images/logo-2.png" alt="Logo"></a></div>
+              <div class="logo"><a href="index.html"><img src="images/quikzy-logo.png"
+                    style="height: 40px; background-color: #222;" alt="Logo"></a></div>
             </div>
 
             <!--Nav Box-->
             <div class="nav-outer">
               <nav class="nav main-menu">
                 <ul class="navigation">
-                  <li class="current dropdown"><a href="index-2.html">Home</a>
-                    <ul>
-                      <li><a href="index-2.html">Home Layout 1</a></li>
-                      <li><a href="index-3.html">Home Layout 2</a></li>
-                      <li><a href="index-4.html">Home Layout 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Pages</a>
-                    <ul>
-                      <li><a href="page-about.html">About</a></li>
-                      <li><a href="page-booking.html">Booking</a></li>
-                      <li><a href="page-taxi.html">Taxi List</a></li>
-                      <li class="dropdown"><a href="#">Driver</a>
-                        <ul>
-                          <li><a href="page-team.html">Driver List</a></li>
-                          <li><a href="page-team-details.html">Driver Details</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="page-testimonial.html">Testimonial</a></li>
-                      <li><a href="page-pricing.html">Pricing</a></li>
-                      <li><a href="page-faq.html">FAQ</a></li>
-                      <li><a href="page-404.html">Page 404</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="page-about.html">About</a></li>
                   <li class="dropdown"><a href="#">Services</a>
                     <ul>
-                      <li><a href="page-services.html">Services List</a></li>
-                      <li><a href="page-service-details.html">Service Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Shop</a>
-                    <ul>
-                      <li><a href="shop-products.html">Products</a></li>
-                      <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                      <li><a href="shop-product-details.html">Product Details</a></li>
-                      <li><a href="shop-cart.html">Cart</a></li>
-                      <li><a href="shop-checkout.html">Checkout</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">News</a>
-                    <ul>
-                      <li><a href="news-grid.html">News Grid</a></li>
-                      <li><a href="news-details.html">News Details</a></li>
+                      <li><a href="#">Corporate Cab Services</a></li>
+                      <li><a href="#">Shared Cab Service </a></li>
+                      <li><a href="#">Monthly Ride Packages</a></li>
+                      <li><a href="#"> Weekly Ride Packages</a></li>
+                      <li><a href="#"> Daily Pickup & Drop</a></li>
+                      <li><a href="#">Corporate Solutions </a></li>
                     </ul>
                   </li>
                   <li><a href="page-contact.html">Contact</a></li>
@@ -302,13 +306,10 @@
             <!-- Outer Box -->
             <div class="outer-box">
 
-              <!-- Search Btn -->
-              <button class="ui-btn search-btn light"> <span class="icon lnr lnr-icon-search"></span> </button>
-
               <!-- Btn Box -->
-              <div class="btn-box"> <a href="page-booking.html"
+              <!-- <div class="btn-box"> <a href="page-booking.html"
                   class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Book a
-                    Taxi</span></a> </div>
+                    Taxi</span></a> </div> -->
 
               <!-- Mobile Nav toggler -->
               <div class="mobile-nav-toggler light"><span class="icon lnr-icon-bars"></span></div>
@@ -324,7 +325,8 @@
         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
         <nav class="menu-box">
           <div class="upper-box">
-            <div class="nav-logo"><a href="index-2.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img src="images/quikzy-logo.png" alt="Logo" title="Logo"></a>
+            </div>
             <div class="close-btn"><i class="icon fa fa-times"></i></div>
           </div>
           <ul class="navigation clearfix">
@@ -332,16 +334,16 @@
           </ul>
           <ul class="contact-list-one light">
             <li> <i class="icon lnr-icon-phone-handset"></i> <span class="title">Call Now</span>
-              <div class="text"><a href="tel:+92880098670">+92 (8800) - 98670</a></div>
+              <div class="text"><a href="tel:+92880098670">+91 8707767805</a></div>
             </li>
             <li> <i class="icon lnr-icon-envelope1"></i> <span class="title">Send Email</span>
               <div class="text"><a
                   href="https://html.kodesolution.com/cdn-cgi/l/email-protection#abc3cec7dbebc8c4c6dbcac5d285c8c4c6"><span
                     class="__cf_email__"
-                    data-cfemail="59313c3529193a363429383720773a3634">[email&#160;protected]</span></a></div>
+                    data-cfemail="59313c3529193a363429383720773a3634">quickzycab@gmail.com</span></a></div>
             </li>
             <li> <i class="icon lnr-icon-map-marker"></i> <span class="title">Address</span>
-              <div class="text">66 Broklyant, New York India 3269</div>
+              <div class="text">Sector-62 Noida, India 3269</div>
             </li>
           </ul>
           <ul class="social-links">
@@ -354,18 +356,6 @@
       </div>
       <!-- End Mobile Menu -->
 
-      <!-- Header Search -->
-      <div class="search-popup"> <span class="search-back-drop"></span>
-        <button class="close-search"><span class="fa fa-times"></span></button>
-        <div class="search-inner">
-          <form method="post" action="https://html.kodesolution.com/2024/citycar-html/blog-showcase.html">
-            <div class="form-group">
-              <input type="search" name="search-field" value="" placeholder="Search..." required="">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-          </form>
-        </div>
-      </div>
       <!-- End Header Search -->
 
       <!-- Sticky Header  -->
@@ -373,7 +363,8 @@
         <div class="auto-container">
           <div class="inner-container">
             <!--Logo-->
-            <div class="logo"> <a href="index-2.html" title=""><img src="images/logo.png" alt="" title=""></a> </div>
+            <div class="logo"> <a href="index.html" title=""><img src="images/quikzy-logo.png"
+                  style="background-color: #222;" alt="Logo" title="Logo"></a> </div>
 
             <!--Right Col-->
             <div class="nav-outer">
@@ -398,17 +389,17 @@
     <!--End Main Header -->
 
     <!-- ====== Taxi Hero Banner Start ====== -->
-    <section class="tx26-hero-wrapper pt-0 pb-0">
+    <section class="tx26-hero-wrapper ">
 
-      <div class="container pt-0">
-        <div class="row align-items-center" style="height: 60vh;">
+      <div class="container pt-0 pb-0">
+        <div class="row align-items-center">
 
           <!-- LEFT CONTENT -->
           <div class="col-lg-6">
             <div class="tx26-hero-content" style="position: relative; z-index: 1;">
 
               <span class="tx26-badge">
-                <i class="fas fa-location-dot"></i> Smart Taxi Service
+                <i class="fas fa-location-dot"></i> Trusted by Working Professionals
               </span>
 
               <h1 class="tx26-title">
@@ -417,16 +408,17 @@
               </h1>
 
               <p class="tx26-subtitle">
-                Fast, safe & affordable taxi booking with real-time tracking,
-                instant pickup and seamless travel experience.
+                Reliable shared and dedicated cab services designed exclusively for working professionals.
+                On-time pickups, verified drivers, and cost-effective monthly plans — built for daily office travel.
               </p>
 
               <div class="tx26-btn-group">
 
 
-                <div class="btn-box"> <a href="page-booking.html"
-                    class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Book a
-                      Taxi</span></a> </div>
+                <div class="btn-box"> <a href="#" class="theme-btn btn-style-one dark-line-two hover-light"><span
+                      class="btn-title">Book Your
+                      Corporate Ride
+                    </span></a> </div>
               </div>
 
 
@@ -445,7 +437,7 @@
               </div>
 
               <div class="tx26-floating-card card-2">
-                <i class="fas fa-star"></i> Top Rated Drivers
+                <i class="fas fa-star"></i> Verified Drivers
               </div>
 
             </div>
@@ -459,39 +451,38 @@
 
 
     <!-- About Section -->
-    <section class="about-section pt-0">
+    <section class="about-section ">
       <div class="auto-container">
-        <div class="row">
+        <div class="row" style="align-items: center;">
 
           <!-- Content Column -->
-          <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2" data-aos="fade-left">
+          <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2">
             <div class="inner-column">
               <div class="sec-title">
-                <span class="sub-title">Welcome to Our Company</span>
-                <h2>We Provide Trusted Cab Services</h2>
-                <div class="text">We successfully cope with tasks of varying complexity, provide long-term guarantees
-                  and regularly master new technologies.</div>
+                <span class="sub-title">WELCOME TO QUICKZY CABS</span>
+                <h2>Professional Cab Services
+                  Built for Corporate Travel</h2>
+                <div class="text" style="text-align: justify;">Quickzy Cabs is a Noida-based corporate mobility partner dedicated to simplifying
+                  daily office travel for working professionals. We specialize in structured shared cab services and
+                  customized corporate transportation plans designed to ensure punctuality, safety, and cost efficiency.
+                </div>
               </div>
-              <blockquote class="blockquote-style-two">Our portfolio includes dozens of successfully completed projects
-                of houses of different storeys,</blockquote>
+              <blockquote class="blockquote-style-two">We proudly support corporate teams with reliable, well-managed,
+                and technology-driven commute solutions.</blockquote>
               <div class="bottom-box">
                 <!-- Features Block -->
                 <div class="features-outer">
                   <div class="feature-block">
-                    <i class="icon fal fa-calendar-check"></i> Online Booking
+                    <i class="icon fal fa-calendar-check"></i> Verified Drivers & Safe Rides
                   </div>
                   <div class="feature-block">
-                    <i class="icon fal fa-headset"></i> 24/7 Support
+                    <i class="icon fal fa-headset"></i> 24/7 Assistance
                   </div>
-                  <a href="page-booking.html" class="theme-btn btn-style-one"><span class="btn-title">Book a
-                      Taxi</span></a>
+                  <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Book Your Ride
+                    </span></a>
                 </div>
 
-                <div class="video-box" data-aos="fade-upp">
-                  <figure class="image"><img src="images/resource/about1-4.png" alt="Image"></figure>
-                  <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn play-now" data-fancybox=""
-                    data-caption=""><i class="icon-triangle fas fa-play"></i><span class="ripple"></span></a>
-                </div>
+
               </div>
             </div>
           </div>
@@ -512,55 +503,111 @@
     <!-- End About Section -->
 
     <!-- Service Section -->
-    <section class="service-section-five">
-      <div class="bg bg-image"></div>
+    <section class="service-section-three pb-80">
       <div class="auto-container">
         <div class="sec-title text-center">
-          <span class="sub-title">LATEST services</span>
-          <h2 class="letters-slide-up text-split">Check out our all time <br>best Services</h2>
+          <span class="sub-title">Our services</span>
+          <h2 class="letters-slide-up text-split">Our Corporate Mobility <br> Solutions</h2>
         </div>
         <div class="row" data-aos="fade-left">
           <div class="col-lg-4 col-sm-6">
             <!-- Service Block -->
-            <div class="service-block-five">
+            <div class="service-block-three">
               <div class="inner-box">
                 <div class="image-box">
-                  <figure class="image"><img src="images/resource/service5-1.jpg" alt="Image"></figure>
+                  <figure class="image"><img src="images/resource/service3-1.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-taxi-2"></i>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="page-service-details.html">Business Transfer</a></h4>
-                  <div class="text">Lorem ipsum dolor sit amet, consectne auctor aliquet Aenean solli lorem tim bibendum
-                    auctor.</div>
+                  <h4 class="title"><a href="#">Corporate Cab Services</a></h4>
+                  <div class="text">Reliable and structured employee transportation solutions tailored for seamless
+                    office commute.</div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <!-- Service Block -->
-            <div class="service-block-five">
+            <div class="service-block-three">
               <div class="inner-box">
                 <div class="image-box">
-                  <figure class="image"><img src="images/resource/service5-2.jpg" alt="Image"></figure>
+                  <figure class="image"><img src="images/resource/service3-2.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-mobile-app"></i>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="page-service-details.html">Online Booking</a></h4>
-                  <div class="text">Lorem ipsum dolor sit amet, consectne auctor aliquet Aenean solli lorem tim bibendum
-                    auctor.</div>
+                  <h4 class="title"><a href="#">Shared Cab Service</a></h4>
+                  <div class="text">Cost-effective ride-sharing designed for professionals traveling on the same office
+                    routes.</div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <!-- Service Block -->
-            <div class="service-block-five">
+            <div class="service-block-three">
               <div class="inner-box">
                 <div class="image-box">
-                  <figure class="image"><img src="images/resource/service5-3.jpg" alt="Image"></figure>
+                  <figure class="image"><img src="images/resource/service3-3.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-driver-3"></i>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="page-service-details.html">City Transport</a></h4>
-                  <div class="text">Lorem ipsum dolor sit amet, consectne auctor aliquet Aenean solli lorem tim bibendum
-                    auctor.</div>
+                  <h4 class="title"><a href="#">Monthly Ride Packages</a></h4>
+                  <div class="text">Fixed and budget-friendly monthly plans for consistent and stress-free daily travel.
+                  </div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Service Block -->
+            <div class="service-block-three">
+              <div class="inner-box">
+                <div class="image-box">
+                  <figure class="image"><img src="images/resource/service3-1.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-taxi-2"></i>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="#">Weekly Ride Packages</a></h4>
+                  <div class="text">Flexible short-term commute solutions ideal for rotational shifts and temporary
+                    assignments.</div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Service Block -->
+            <div class="service-block-three">
+              <div class="inner-box">
+                <div class="image-box">
+                  <figure class="image"><img src="images/resource/service3-2.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-mobile-app"></i>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="#">Daily Pickup & Drop</a></h4>
+                  <div class="text">Punctual door-to-door office transportation with verified drivers and safe vehicles.
+                  </div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Service Block -->
+            <div class="service-block-three">
+              <div class="inner-box">
+                <div class="image-box">
+                  <figure class="image"><img src="images/resource/service3-3.jpg" alt="Image"></figure>
+                  <i class="icon flaticon-driver-3"></i>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="#">Corporate Transportation Management</a></h4>
+                  <div class="text">End-to-end employee mobility solutions with customized plans and dedicated support.
+                  </div>
+                  <a href="#" class="icon fa fa-angle-double-right"></a>
                 </div>
               </div>
             </div>
@@ -570,232 +617,92 @@
     </section>
     <!-- End Service Section -->
 
-    <!-- Pricing Section -->
-    <section class="pricing-section-four">
+    <!-- Benefit Section -->
+    <section class="benefit-section-two">
       <div class="auto-container">
         <div class="sec-title text-center">
-          <span class="sub-title">Select a plan that shouts</span>
-          <h2 class="letters-slide-up text-split">Choose Your Taxi to <br>Ride!</h2>
+          <span class="sub-title line-style">Why We Are Better</span>
+          <h2 class="letters-slide-up text-split">The Smart Choice for <br> Corporate Mobility</h2>
         </div>
-        <div class="outer-box" data-aos="fade-left">
-          <div class="pricing-carousel owl-carousel owl-theme default-dots">
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-1.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
+        <div class="row">
+          <!-- Blocks Column -->
+          <div class="blocks-column col-lg-4 col-md-6 col-sm-6" data-aos="fade-right">
+            <div class="inner-column">
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-driver-3"></i>
+                  <div class="content">
+                    <h4 class="title">Corporate-Focused Transportation</h4>
+                    <div class="text">Specialized commute solutions designed exclusively for working professionals and
+                      organizations.</div>
                   </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
+                </div>
+              </div>
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-taxi-2"></i>
+                  <div class="content">
+                    <h4 class="title">Guaranteed Punctuality</h4>
+                    <div class="text">Structured route planning ensures on-time pickup and drop, every single day.</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-mobile-app"></i>
+                  <div class="content">
+                    <h4 class="title">Cost-Effective Shared Rides</h4>
+                    <div class="text">Smart ride-sharing options that reduce daily travel expenses without compromising
+                      comfort.</div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-2.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
+          </div>
+          <!-- Image Column -->
+          <div class="image-column col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <figure class="image reveal overlay-anim"><img src="images/resource/benefit2-1.png" alt="Image"></figure>
+            </div>
+          </div>
+          <!-- Blocks Column -->
+          <div class="blocks-column style-two col-lg-4 col-md-6 col-sm-6" data-aos="fade-left">
+            <div class="inner-column">
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-mobile-app"></i>
+                  <div class="content">
+                    <h4 class="title">Verified & Professional Drivers</h4>
+                    <div class="text">Background-verified drivers trained for safe and professional service standards.
+                    </div>
                   </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
                 </div>
               </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-3.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-taxi-2"></i>
+                  <div class="content">
+                    <h4 class="title">Flexible Ride Packages</h4>
+                    <div class="text">Weekly and monthly plans tailored to suit different work schedules and travel
+                      needs.
+                    </div>
                   </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
                 </div>
               </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-1.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
+              <!-- Benefit Block -->
+              <div class="benefit-block-two">
+                <div class="inner-box">
+                  <i class="icon flaticon-driver-3"></i>
+                  <div class="content">
+                    <h4 class="title">Dedicated Corporate Support</h4>
+                    <div class="text">Personalized assistance and account management for seamless employee
+                      transportation.</div>
                   </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-2.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-3.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-1.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-2.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-3.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing Block -->
-            <div class="pricing-block-four">
-              <div class="inner-box">
-                <div class="image-box">
-                  <figure class="image"><img src="images/resource/pricing2-3.jpg" alt="Image"></figure>
-                </div>
-                <div class="content">
-                  <div class="car-detail">
-                    <h4 class="car-name">BMW X5 2008</h4>
-                    <div class="city">Chicago</div>
-                  </div>
-                  <ul class="feature-list">
-                    <li class="colored">Initial-Change <span class="price">$2.50</span></li>
-                    <li>Per Mile/KM: <span class="price">$4.20</span></li>
-                    <li class="colored">Per Stopped Trafic: <span class="price">$1.50</span></li>
-                    <li>Passengers: <span class="price">4 Person</span></li>
-                  </ul>
-                  <div class="btn-box"> <a href="page-booking.html" class="theme-btn btn-style-two hover-light"><span
-                        class="btn-title">Book a Taxi</span></a> </div>
                 </div>
               </div>
             </div>
@@ -803,116 +710,173 @@
         </div>
       </div>
     </section>
-    <!-- End Pricing Section -->
+    <!-- End Benefits Section -->
+
+    <!-- Work Section -->
+    <section class="work-section pt-0">
+      <div class="auto-container">
+        <div class="sec-title text-center">
+          <span class="sub-title">Order Taxi Online</span>
+          <h2 class="letters-slide-up text-split">How It Works</h2>
+        </div>
+        <div class="row">
+          <!-- Work Block -->
+          <div class="work-block col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="inner-box">
+              <i class="icon flaticon-taxi"></i>
+              <div class="content">
+                <h4 class="title">Book Your Ride</h4>
+                <div class="text">Easily book your cab through our website by entering your pickup location, drop-off
+                  destination, date, and time.</div>
+              </div>
+            </div>
+          </div>
+          <!-- Work Block -->
+          <div class="work-block col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="inner-box">
+              <i class="icon flaticon-mobile-app"></i>
+              <div class="content">
+                <h4 class="title">Get Picked Up</h4>
+                <div class="text">Our professional and verified driver will arrive at your location on time.</div>
+              </div>
+            </div>
+          </div>
+          <!-- Work Block -->
+          <div class="work-block col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="inner-box">
+              <i class="icon flaticon-taxi-6"></i>
+              <div class="content">
+                <h4 class="title">Enjoy the Journey</h4>
+                <div class="text">Sit back and relax while we take care of the rest. With safe driving, clean vehicles,
+                  and reliable service by Quikzy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Work Section -->
 
     <!-- Testimonial Section -->
-    <section class="testimonial-section-three">
+    <section class="testimonial-section-four">
       <div class="bg bg-image"></div>
-      <div class="image-man"></div>
       <div class="container pt-0 pb-0">
-        <div class="row justify-content-xl-end">
-          <div class="col-xl-7">
-            <div class="sec-title">
-              <h2 class="letters-slide-up text-split">Citycar Passengers Reviews...</h2>
-            </div>
-            <div class="testimonial-carousel owl-carousel owl-theme default-dots-two">
-              <!-- Testimonial Block -->
-              <div class="testimonial-block-three">
-                <div class="inner-box">
-                  <div class="content">
-                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium
-                      voluptatum delenitie tome valley nate atque corrupti quos dolores quas molestias excepter opply
-                      sint occaecati cupiditate provident similique</div>
-                    <div class="box-info">
-                      <div class="author-box">
-                        <figure class="author-image"><img src="images/resource/testi2-1.png" alt=""></figure>
-                        <div class="author-info">
-                          <h4 class="name">Arthur A. Vandusen</h4>
-                          <span class="designation">CEO & Founder</span>
-                        </div>
-                      </div>
-                      <div class="author-rating">
-                        <div class="rating-title">Quality Services</div>
-                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Block -->
-              <div class="testimonial-block-three">
-                <div class="inner-box">
-                  <div class="content">
-                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium
-                      voluptatum delenitie tome valley nate atque corrupti quos dolores quas molestias excepter opply
-                      sint occaecati cupiditate provident similique</div>
-                    <div class="box-info">
-                      <div class="author-box">
-                        <figure class="author-image"><img src="images/resource/testi2-1.png" alt=""></figure>
-                        <div class="author-info">
-                          <h4 class="name">Arthur A. Vandusen</h4>
-                          <span class="designation">CEO & Founder</span>
-                        </div>
-                      </div>
-                      <div class="author-rating">
-                        <div class="rating-title">Quality Services</div>
-                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Block -->
-              <div class="testimonial-block-three">
-                <div class="inner-box">
-                  <div class="content">
-                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium
-                      voluptatum delenitie tome valley nate atque corrupti quos dolores quas molestias excepter opply
-                      sint occaecati cupiditate provident similique</div>
-                    <div class="box-info">
-                      <div class="author-box">
-                        <figure class="author-image"><img src="images/resource/testi2-1.png" alt=""></figure>
-                        <div class="author-info">
-                          <h4 class="name">Arthur A. Vandusen</h4>
-                          <span class="designation">CEO & Founder</span>
-                        </div>
-                      </div>
-                      <div class="author-rating">
-                        <div class="rating-title">Quality Services</div>
-                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Block -->
-              <div class="testimonial-block-three">
-                <div class="inner-box">
-                  <div class="content">
-                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium
-                      voluptatum delenitie tome valley nate atque corrupti quos dolores quas molestias excepter opply
-                      sint occaecati cupiditate provident similique</div>
-                    <div class="box-info">
-                      <div class="author-box">
-                        <figure class="author-image"><img src="images/resource/testi2-1.png" alt=""></figure>
-                        <div class="author-info">
-                          <h4 class="name">Arthur A. Vandusen</h4>
-                          <span class="designation">CEO & Founder</span>
-                        </div>
-                      </div>
-                      <div class="author-rating">
-                        <div class="rating-title">Quality Services</div>
-                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+        <div class="sec-title text-center">
+          <span class="sub-title line-style">testimonials</span>
+          <h2 class="letters-slide-up text-split">What Our Customer Says</h2>
+        </div>
+        <div class="outer-box">
+          <div class="testimonial-carousel-two owl-carousel owl-theme default-dots">
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">Quickzy Cabs has completely simplified my daily office commute. The pickup is always
+                    on time, and the shared ride system is very well managed. Highly reliable service for working
+                    professionals.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-1.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name">Amit Sharma</h6>
+                        <span class="designation">IT Professional, Noida</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">We partnered with Quickzy Cabs for employee transportation, and the experience has
+                    been smooth and professional. Their punctuality and structured coordination truly stand out.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-2.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name">Neha Verma</h6>
+                        <span class="designation">HR Executive</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">The monthly ride package is cost-effective and hassle-free. Drivers are polite, and
+                    the overall service is consistent. It has made my daily travel stress-free.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-3.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name">Rahul Mehta</h6>
+                        <span class="designation">Software Engineer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">Safe, comfortable, and always punctual. I appreciate their professional approach and
+                    verified drivers. Definitely recommended for daily office commuters.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-1.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name"> Priya Singh</h6>
+                        <span class="designation">Corporate Employee</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">Quickzy Cabs provides dependable corporate transportation solutions. Their team is
+                    responsive, and fleet management is well organized.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-2.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name"> Vikas Arora</h6>
+                        <span class="designation">Operations Manager</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Block -->
+            <div class="testimonial-block-four">
+              <div class="inner-box">
+                <div class="content">
+                  <div class="text">The shared cab service is affordable without compromising on comfort. It’s the
+                    perfect solution for regular office travel in Noida.</div>
+                  <div class="box-info">
+                    <div class="author-box">
+                      <figure class="author-image"><img src="images/resource/testi3-3.png" alt=""></figure>
+                      <div class="author-info">
+                        <h6 class="name"> Sneha Kapoor</h6>
+                        <span class="designation">Finance Professional</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -933,49 +897,51 @@
               <ul class="accordion-box style-two wow fadeInLeft">
                 <!--Block-->
                 <li class="accordion block active-block">
-                  <div class="acc-btn active">1. How to booking a taxi cap in city tour?
+                  <div class="acc-btn active">1. What areas does Quickzy Cabs operate in?
                     <div class="icon fa fa-chevron-right"></div>
                   </div>
                   <div class="acc-content current">
                     <div class="content">
-                      <div class="text">Sed perspiciatis unde omniste natus voluptatem accusant doloremse que laudantium
-                        totam aperiam eaquequ inven tore veritatis et quasi architecto beatae vitae dicta.</div>
+                      <div class="text">Quickzy Cabs primarily operates in Noida and nearby corporate hubs, providing
+                        structured and reliable office commute solutions for working professionals and organizations.
+                      </div>
                     </div>
                   </div>
                 </li>
                 <!--Block-->
                 <li class="accordion block">
-                  <div class="acc-btn">2. How to Download taxi app?
+                  <div class="acc-btn">2. How does the shared cab service work?
                     <div class="icon fa fa-chevron-right"></div>
                   </div>
                   <div class="acc-content">
                     <div class="content">
-                      <div class="text">Sed perspiciatis unde omniste natus voluptatem accusant doloremse que laudantium
-                        totam aperiam eaquequ inven tore veritatis et quasi architecto beatae vitae dicta.</div>
+                      <div class="text">Our shared cab service groups professionals traveling on similar routes,
+                        ensuring cost-effective, timely, and well-managed daily office transportation without
+                        compromising comfort.</div>
                     </div>
                   </div>
                 </li>
                 <!--Block-->
                 <li class="accordion block">
-                  <div class="acc-btn">3. How to hire a Driver?
+                  <div class="acc-btn">3. Do you offer monthly corporate ride packages?
                     <div class="icon fa fa-chevron-right"></div>
                   </div>
                   <div class="acc-content">
                     <div class="content">
-                      <div class="text">Sed perspiciatis unde omniste natus voluptatem accusant doloremse que laudantium
-                        totam aperiam eaquequ inven tore veritatis et quasi architecto beatae vitae dicta.</div>
+                      <div class="text">Yes, we provide flexible weekly and monthly ride packages tailored for regular
+                        office commuters and corporate employee transportation requirements.</div>
                     </div>
                   </div>
                 </li>
                 <!--Block-->
                 <li class="accordion block">
-                  <div class="acc-btn">4. How to booking a cap in city tour ?
+                  <div class="acc-btn">4. Are your drivers verified and trained?
                     <div class="icon fa fa-chevron-right"></div>
                   </div>
                   <div class="acc-content">
                     <div class="content">
-                      <div class="text">Sed perspiciatis unde omniste natus voluptatem accusant doloremse que laudantium
-                        totam aperiam eaquequ inven tore veritatis et quasi architecto beatae vitae dicta.</div>
+                      <div class="text">Absolutely. All our drivers are background-verified, professionally trained, and
+                        committed to maintaining the highest standards of safety and punctuality.</div>
                     </div>
                   </div>
                 </li>
@@ -992,156 +958,10 @@
     </section>
     <!--End FAQ Section -->
 
-    <!-- Video Section -->
-    <section class="video-section-one pull-bottom">
-      <div class="bg bg-image" style="background-image: url(images/background/bg-video1.png);"></div>
-      <div class="auto-container">
-        <!-- Content Column -->
-        <div class="content-column">
-          <div class="inner-column">
-            <div class="video-box wow zoomIn">
-              <figure class="image"><img src="images/resource/video-text1.png" alt="Image"></figure>
-              <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn" data-fancybox="" data-caption="">
-                <div class="icon-triangle fas fa-play"></div>
-              </a>
-            </div>
-            <div class="sec-title light text-center">
-              <h2 class="letters-slide-up text-split">See Our Easy Booking Form <br>To Get Vehicle</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Video Section -->
-
-    <!-- Booking Section -->
-    <section class="booking-section-three pull-top">
-      <div class="auto-container">
-        <div class="outer-box">
-          <!-- Content Column -->
-          <div class="content-column">
-            <div class="inner-column">
-              <div class="sec-title">
-                <span class="sub-title">contact us</span>
-                <h2 class="letters-slide-up text-split">We Provide Trusted <br>Cab Service</h2>
-                <a href="page-booking.html" class="theme-btn btn-style-one yellow-line dark-bg hover-light"><span
-                    class="btn-title">Book a Taxi</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Booking Section -->
-
-    <!-- News Section -->
-    <section class="news-section-four">
-      <div class="auto-container">
-        <div class="sec-title text-center">
-          <span class="sub-title">News & Updates</span>
-          <h2 class="letters-slide-up text-split">Recent Articles</h2>
-        </div>
-        <div class="row">
-          <!-- News Block -->
-          <div class="news-block-four col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="inner-box">
-              <figure class="image">
-                <a href="news-details.html">
-                  <img src="images/resource/news4-1.jpg" alt="Image">
-                  <img src="images/resource/news4-1.jpg" alt="Image">
-                </a>
-              </figure>
-              <div class="content">
-                <ul class="post-meta">
-                  <li>January 10, 2024</li>
-                </ul>
-                <h4 class="title"><a href="news-details.html">Advantages of Online Taxi Booking Services</a></h4>
-                <div class="text">Lorem ipsum dolor sit amet, cons auctor a liquet. Aenean sollicitudi,bibendu.</div>
-                <div class="author-box">
-                  <img src="images/resource/news4-thumb1.png" alt="image">
-                  <h6 class="name">by <span><a href="news-details.html">Jakki James</a></span></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- News Block -->
-          <div class="news-block-four col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="inner-box">
-              <figure class="image">
-                <a href="news-details.html">
-                  <img src="images/resource/news4-2.jpg" alt="Image">
-                  <img src="images/resource/news4-2.jpg" alt="Image">
-                </a>
-              </figure>
-              <div class="content">
-                <ul class="post-meta">
-                  <li>February 11, 2024</li>
-                </ul>
-                <h4 class="title"><a href="news-details.html">Utilizing Online Taxi service Reservation Services</a>
-                </h4>
-                <div class="text">Lorem ipsum dolor sit amet, cons auctor a liquet. Aenean sollicitudi,bibendu.</div>
-                <div class="author-box">
-                  <img src="images/resource/news4-thumb2.png" alt="image">
-                  <h6 class="name">by <span><a href="news-details.html">Martin Hunk</a></span></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- News Block -->
-          <div class="news-block-four col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="inner-box">
-              <figure class="image">
-                <a href="news-details.html">
-                  <img src="images/resource/news4-3.jpg" alt="Image">
-                  <img src="images/resource/news4-3.jpg" alt="Image">
-                </a>
-              </figure>
-              <div class="content">
-                <ul class="post-meta">
-                  <li>November 16, 2024</li>
-                </ul>
-                <h4 class="title"><a href="news-details.html">Convenience of Online Taxi Reservation Services</a></h4>
-                <div class="text">Lorem ipsum dolor sit amet, cons auctor a liquet. Aenean sollicitudi,bibendu.</div>
-                <div class="author-box">
-                  <img src="images/resource/news4-thumb3.png" alt="image">
-                  <h6 class="name">by <span><a href="news-details.html">Robert Hank</a></span></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End News Section -->
 
     <!-- Main Footer -->
     <footer class="main-footer footer-style-two">
       <div class="bg bg-pattern-4"></div>
-      <!-- Footer Top -->
-      <div class="footer-top">
-        <div class="auto-container">
-          <div class="inner-container">
-            <div class="top-left">
-              <div class="logo-box">
-                <div class="logo"><a href="index-2.html"><img src="images/logo-2.png" alt="Logo"></a></div>
-              </div>
-            </div>
-            <div class="top-center">
-              <div class="text">Authoritatively simplify open-source resources via backend visualize business e-markets
-                before parallel.</div>
-            </div>
-            <div class="top-right">
-              <div class="info-btn">
-                <i class="icon fal fa-mobile"></i>
-                <div class="content">
-                  <h5 class="title">call for taxi</h5>
-                  <a href="#" class="phone-no">5267-214-392</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- Widgets Section -->
       <div class="widgets-section">
@@ -1149,14 +969,31 @@
           <div class="row">
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+              <div class="footer-widget about-widget">
+                <h5 class="widget-title">Quickzy Cab</h5>
+                <div class="widget-content">
+                  <div class="btn-box">
+                    <div class="logo"><a href="index.html"><img src="images/quikzy-logo.png" style="height: 40px;"
+                          alt="Logo"></a></div>
+                  </div>
+                  <div class="text">Delivering reliable, safe, and cost-effective corporate commute solutions designed
+                    to
+                    simplify daily office travel for working professionals.s</div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-3 col-md-6 col-sm-12">
               <div class="footer-widget about-widget">
                 <h5 class="widget-title">Download Mobile App</h5>
                 <div class="widget-content">
-                  <div class="text">Competently re-engineer cross-media breed meta-services</div>
+                  <div class="text">Launching Soon ....</div>
                   <div class="btn-box">
                     <a href="#" class="image"><img src="images/icons/google-play-2.png" alt="Image"></a>
-                    <a href="#" class="image"><img src="images/icons/app-store-2.png" alt="Image"></a>
+
                   </div>
                 </div>
               </div>
@@ -1168,39 +1005,17 @@
                 <h4 class="widget-title">Useful Links</h4>
                 <div class="widget-content">
                   <ul class="user-links two-column">
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">About</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Get a Cab</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Our Vehicles</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Reviews</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Services</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Our News</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Package</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Login</a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Home</a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">About Us </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Our Services</a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Cab Services</a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Contact Us</a></li>
+
                   </ul>
                 </div>
               </div>
             </div>
 
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-4 col-md-6 col-sm-12">
-              <div class="footer-widget newsletter-widget">
-                <h4 class="widget-title">Newsletter</h4>
-                <div class="widget-content">
-                  <div class="text">Signup for our weekly newsletter or updates.</div>
-                  <div class="newsletter-form">
-                    <form method="post" action="#">
-                      <div class="form-group">
-                        <div class="input-outer">
-                          <input type="email" name="email" placeholder="Enter Your email." required>
-                        </div>
-                        <button type="button" class="theme-btn btn-style-one dark-line-two hover-light"><span
-                            class="btn-title">Subscribe</span></button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -1209,7 +1024,7 @@
       <div class="footer-bottom">
         <div class="auto-container">
           <div class="inner-container">
-            <div class="copyright-text">© Copyright Citycar Reserved By Kodesolution.</div>
+            <div class="copyright-text">Copyright © 2026 Quickzy Cab</div>
             <ul class="footer-nav">
               <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
               <li><a href="#"><i class="fa fa-x"></i> Twitter</a></li>
