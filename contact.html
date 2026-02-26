@@ -55,7 +55,7 @@
           <!-- Main box -->
           <div class="main-box">
             <div class="logo-box">
-              <div class="logo"><a href="index.html"><img src="images/quikzy-logo.png" style="height: 40px; background-color: #222;"
+              <div class="logo"><a href="index.html"><img src="images/quikzy-logo.png" style="height: 40px; "
                     alt="Logo"></a></div>
             </div>
 
@@ -64,18 +64,18 @@
               <nav class="nav main-menu">
                 <ul class="navigation">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="page-about.html">About</a></li>
+                  <li><a href="about.html">About</a></li>
                   <li class="dropdown"><a href="#">Services</a>
                     <ul>
-                      <li><a href="#">Corporate Cab Services</a></li>
-                      <li><a href="#">Shared Cab Service </a></li>
-                      <li><a href="#">Monthly Ride Packages</a></li>
-                      <li><a href="#"> Weekly Ride Packages</a></li>
-                      <li><a href="#"> Daily Pickup & Drop</a></li>
-                      <li><a href="#">Corporate Solutions </a></li>
+                      <li><a href="corporate-cab-services.html">Corporate Cab Services</a></li>
+                      <li><a href="shared-cab-service.html">Shared Cab Service </a></li>
+                      <li><a href="monthly-ride-packages.html">Monthly Ride Packages</a></li>
+                      <li><a href="weekly-ride-packages.html"> Weekly Ride Packages</a></li>
+                      <li><a href="daily-pickup-drop.html"> Daily Pickup & Drop</a></li>
+                      <li><a href="corporate-solutions.html">Corporate Solutions </a></li>
                     </ul>
                   </li>
-                  <li><a href="page-contact.html">Contact</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -112,13 +112,11 @@
           </ul>
           <ul class="contact-list-one light">
             <li> <i class="icon lnr-icon-phone-handset"></i> <span class="title">Call Now</span>
-              <div class="text"><a href="tel:+92880098670">+91 8707767805</a></div>
+              <div class="text"><a href="tel:+917500874763">+91 7500874763</a></div>
             </li>
             <li> <i class="icon lnr-icon-envelope1"></i> <span class="title">Send Email</span>
-              <div class="text"><a
-                  href="https://html.kodesolution.com/cdn-cgi/l/email-protection#abc3cec7dbebc8c4c6dbcac5d285c8c4c6"><span
-                    class="__cf_email__"
-                    data-cfemail="59313c3529193a363429383720773a3634">[email&#160;protected]</span></a></div>
+              <div class="text"><a href="mailto:sales@quikzycabs.com"><span class="__cf_email__"
+                    data-cfemail="59313c3529193a363429383720773a3634">sales@quikzycabs.com</span></a></div>
             </li>
             <li> <i class="icon lnr-icon-map-marker"></i> <span class="title">Address</span>
               <div class="text">Sector-62 Noida, India 3269</div>
@@ -141,8 +139,8 @@
         <div class="auto-container">
           <div class="inner-container">
             <!--Logo-->
-            <div class="logo"> <a href="index.html" title=""><img src="images/quikzy-logo.png"
-                  style="background-color: #222;" alt="Logo" title="Logo"></a> </div>
+            <div class="logo"> <a href="index.html" title=""><img src="images/quikzy-logo.png" alt="Logo"
+                  title="Logo"></a> </div>
 
             <!--Right Col-->
             <div class="nav-outer">
@@ -186,44 +184,56 @@
         <div class="row">
           <div class="col-xl-7 col-lg-6">
             <div class="sec-title">
-              <span class="sub-title">Send us email</span>
+              <span class="sub-title">Contact Us</span>
               <h2>Feel free to write</h2>
             </div>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class=""
-              action="https://html.kodesolution.com/2024/citycar-html/includes/sendmail.php" method="post">
+            <form id="contact_form" name="contact_form" class="" action="#" method="post">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name">
+                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name*" required>
                   </div>
                 </div>
-                <div class="col-sm-6">
+
+               <div class="col-sm-6">
                   <div class="mb-3">
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <input name="form_age" class="form-control" type="text" placeholder="Enter Age" >
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+                    <input name="form_shift" class="form-control" type="text" placeholder="Enter Your Shift *" >
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                    <input name="form_occupation" class="form-control required " type="text" placeholder="Enter Occupation*">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <input name="form_address" class="form-control required" type="text" placeholder="Enter Address*">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone Number*" required>
                   </div>
                 </div>
               </div>
               <div class="mb-3">
-                <textarea name="form_message" class="form-control required" rows="7"
+                <textarea name="form_message" class="form-control " rows="7"
                   placeholder="Enter Message"></textarea>
               </div>
               <div class="mb-5">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
                 <button type="submit" class="theme-btn btn-style-one mb-3 mb-xl-0"
-                  data-loading-text="Please wait..."><span class="btn-title">Send message</span></button>
+                  data-loading-text="Please wait..."><span class="btn-title">Submit Inquiry</span></button>
                 <button type="reset" class="theme-btn btn-style-one bg-theme-color5"><span
                     class="btn-title">Reset</span></button>
               </div>
@@ -235,8 +245,7 @@
               <div class="sec-title">
                 <span class="sub-title">Need any help?</span>
                 <h2>Get in touch with us</h2>
-                <div class="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted
-                  adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.</div>
+                <div class="text" style="text-align: justify;">Get in touch with our team for reliable and structured corporate commute solutions. Whether you need daily office transportation or customized corporate packages, we’re here to assist you with prompt and professional support.</div>
               </div>
               <ul class="list-unstyled contact-details__info">
                 <li class="d-block d-sm-flex align-items-sm-center ">
@@ -245,7 +254,7 @@
                   </div>
                   <div class="text ml-xs--0 mt-xs-10">
                     <h4>Have any question?</h4>
-                    <a href="tel:980089850"> +91 870776705</a>
+                    <a href="tel:+917500874763"> +91 7500874763</a>
                   </div>
                 </li>
                 <li class="d-block d-sm-flex align-items-sm-center ">
@@ -253,11 +262,11 @@
                     <span class="lnr-icon-envelope1"></span>
                   </div>
                   <div class="text ml-xs--0 mt-xs-10">
-                    <h4>Write email</h4>
+                    <h4>Write email</h4> 
                     <a
-                      href="https://html.kodesolution.com/cdn-cgi/l/email-protection#99f7fcfcfdf1fcf5e9d9faf6f4e9f8f7e0b7faf6f4"><span
+                      href="mailto:sales@quikzycabs.com"><span
                         class="__cf_email__"
-                        data-cfemail="77191212131f121b073714181a0716190e5914181a">quickzycab@gmail.com</span></a>
+                        data-cfemail="77191212131f121b073714181a0716190e5914181a">sales@quikzycabs.com</span></a>
                   </div>
                 </li>
                 <li class="d-block d-sm-flex align-items-sm-center ">
@@ -289,12 +298,12 @@
       <div class="bg bg-pattern-4"></div>
 
       <!-- Widgets Section -->
-      <div class="widgets-section">
+      <div class="widgets-section pb-0">
         <div class="auto-container">
           <div class="row">
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+            <div class="footer-column col-lg-4 col-md-6 col-sm-12">
               <div class="footer-widget about-widget">
                 <h5 class="widget-title">Quickzy Cab</h5>
                 <div class="widget-content">
@@ -310,16 +319,29 @@
               </div>
             </div>
 
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-md-6 col-sm-12">
-              <div class="footer-widget about-widget">
-                <h5 class="widget-title">Download Mobile App</h5>
-                <div class="widget-content">
-                  <div class="text">Launching Soon ....</div>
-                  <div class="btn-box">
-                    <a href="#" class="image"><img src="images/icons/google-play-2.png" alt="Image"></a>
 
-                  </div>
+            <!-- Footer COlumn -->
+            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+              <div class="footer-widget links-widget">
+                <h4 class="widget-title">Useful Links</h4>
+                <div class="widget-content">
+                  <ul class="user-links two-column">
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="about.html">About Us </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="contact.html">Contact Us</a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="corporate-cab-services.html">Corporate
+                        Cab Services </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="shared-cab-service.html">Shared Cab
+                        Service </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="monthly-ride-packages.html">Monthly Ride
+                        Packages </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="weekly-ride-packages.html">Weekly Ride
+                        Packages </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="daily-pickup-drop.html">Daily Pickup &
+                        Drop </a></li>
+                    <li><i class="icon fa fa-angle-double-right"></i> <a href="corporate-solutions.html">Corporate
+                        Solutions </a></li>
+
+                  </ul>
                 </div>
               </div>
             </div>
@@ -327,15 +349,19 @@
             <!-- Footer COlumn -->
             <div class="footer-column col-lg-3 col-md-6 col-sm-12">
               <div class="footer-widget links-widget">
-                <h4 class="widget-title">Useful Links</h4>
+                <h4 class="widget-title">Address</h4>
                 <div class="widget-content">
                   <ul class="user-links two-column">
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Home</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">About Us </a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Our Services</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Cab Services</a></li>
-                    <li><i class="icon fa fa-angle-double-right"></i> <a href="#">Contact Us</a></li>
-
+                    <li><i class="icon fa fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/JWFRaRdFqqAXXCCVA" target="_blank">Sector-62, Noida,  Uttar
+                        Pradesh</a></li>
+                  </ul>
+                  <ul class="user-links two-column pt-20">
+                    <li><i class="icon fa fa-phone"></i><a href="tel:+917500874763" target="_blank">+91
+                        7500874763</a></li>
+                  </ul>
+                  <ul class="user-links two-column pt-20">
+                    <li><i class="icon fa fa-envelope"></i><a href="mailto:sales@quikzycabs.com"
+                        target="_blank">sales@quikzycabs.com</a></li>
                   </ul>
                 </div>
               </div>
