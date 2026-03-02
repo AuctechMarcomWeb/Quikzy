@@ -27,7 +27,7 @@
                                 <span class="sub-title line-style">About Weekly Ride Packages</span>
                                 <h2 class="letters-slide-up text-split">Flexible Weekly Commute Solutions
                                 </h2>
-                                <div class="text" style="text-align: justify;">Quickzy Cabs’ Weekly Ride Packages are
+                                <div class="text" style="text-align: justify;">Quikzy Cabs’ Weekly Ride Packages are
                                     designed for professionals who require short-term, flexible, and reliable office
                                     commute solutions. Whether it’s rotational shifts, temporary assignments, or limited
                                     office visits, our weekly plans offer structured and cost-effective transportation

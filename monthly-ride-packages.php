@@ -27,7 +27,7 @@
                                 <span class="sub-title line-style">About Monthly Ride Packages</span>
                                 <h2 class="letters-slide-up text-split">Reliable Monthly Ride Packages
                                 </h2>
-                                <div class="text" style="text-align: justify;">Quickzy Cabs’ Monthly Ride Packages are
+                                <div class="text" style="text-align: justify;">Quikzy Cabs’ Monthly Ride Packages are
                                     designed for working professionals who prefer a fixed, reliable, and budget-friendly
                                     office commute solution. With structured scheduling and consistent routes, our
                                     monthly plans eliminate daily booking hassles and ensure smooth, uninterrupted

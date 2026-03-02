@@ -27,7 +27,7 @@
                         <span class="sub-title line-style">About Corporate Solutions</span>
                         <h2 class="letters-slide-up text-split">End-to-End Corporate Transportation Solutions
                         </h2>
-                        <div class="text" style="text-align: justify;">Quickzy Cabs provides comprehensive
+                        <div class="text" style="text-align: justify;">Quikzy Cabs provides comprehensive
                             Corporate Solutions designed to streamline employee transportation with efficiency
                             and precision. We partner with organizations to deliver structured, scalable, and
                             cost-optimized mobility services tailored to their operational requirements.</div>

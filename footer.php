@@ -10,7 +10,7 @@
                 <!-- Footer Column -->
                 <div class="footer-column col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-widget about-widget">
-                        <h5 class="widget-title">Quickzy Cab</h5>
+                        <h5 class="widget-title">Quikzy Cab</h5>
                         <div class="widget-content">
                             <div class="btn-box">
                                 <div class="logo" style="background:#fff; border-radius:10px; padding:8px"><a
@@ -112,7 +112,7 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="inner-container">
-                <div class="copyright-text">Copyright © 2026 Quickzy Cab</div>
+                <div class="copyright-text">Copyright © 2026 Quikzy Cab</div>
                 <ul class="footer-nav">
                     <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>

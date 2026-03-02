@@ -10,7 +10,7 @@
             <div class="col-lg-6">
                 <div class="tx26-hero-content" style="position: relative; z-index: 1;">
 
-                    <span class="tx26-badge"> Quickzy Cabs
+                    <span class="tx26-badge"> Quikzy Cabs
                     </span>
 
                     <h1 class="tx26-title">
@@ -69,10 +69,10 @@
             <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2">
                 <div class="inner-column">
                     <div class="sec-title">
-                        <span class="sub-title">WELCOME TO QUICKZY CABS</span>
+                        <span class="sub-title">WELCOME TO Quikzy CABS</span>
                         <h2>Professional Cab Services
                             Built for Corporate Travel</h2>
-                        <div class="text" style="text-align: justify;">Quickzy Cabs is a Noida-based corporate mobility
+                        <div class="text" style="text-align: justify;">Quikzy Cabs is a Noida-based corporate mobility
                             partner
                             dedicated to simplifying
                             daily office travel for working professionals. We specialize in structured shared cab
@@ -474,12 +474,12 @@
                     <ul class="accordion-box style-two wow fadeInLeft">
                         <!--Block-->
                         <li class="accordion block active-block">
-                            <div class="acc-btn active">1. What areas does Quickzy Cabs operate in?
+                            <div class="acc-btn active">1. What areas does Quikzy Cabs operate in?
                                 <div class="icon fa fa-chevron-right"></div>
                             </div>
                             <div class="acc-content current">
                                 <div class="content">
-                                    <div class="text">Quickzy Cabs primarily operates in Noida and nearby corporate
+                                    <div class="text">Quikzy Cabs primarily operates in Noida and nearby corporate
                                         hubs, providing
                                         structured and reliable office commute solutions for working professionals and
                                         organizations.

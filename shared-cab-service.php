@@ -26,7 +26,7 @@
                                 <span class="sub-title line-style">About Shared Cab Services</span>
                                 <h2 class="letters-slide-up text-split">Smarter Way to Travel to <br> Work
                                 </h2>
-                                <div class="text" style="text-align: justify;">Quickzy Cabs’ Shared Cab Service is a
+                                <div class="text" style="text-align: justify;">Quikzy Cabs’ Shared Cab Service is a
                                     smart and cost-effective commute solution designed for working professionals
                                     traveling on similar office routes. By grouping passengers with matching pickup and
                                     drop locations, we ensure reduced travel costs without compromising on punctuality,

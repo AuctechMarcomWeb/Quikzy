@@ -50,7 +50,7 @@
                         <span class="sub-title line-style">About Corporate Cab Services</span>
                         <h2 class="letters-slide-up text-split">Reliable Corporate Cab Services
                         </h2>
-                        <div class="text" style="text-align: justify;">Quickzy Cabs offers professionally
+                        <div class="text" style="text-align: justify;">Quikzy Cabs offers professionally
                             managed Corporate Cab Services designed to simplify and streamline employee
                             transportation. We understand that punctual and reliable commute solutions directly
                             impact employee productivity and operational efficiency. That’s why we provide

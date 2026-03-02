@@ -98,7 +98,7 @@ CREATE TABLE `testimonials` (
 --
 
 INSERT INTO `testimonials` (`id`, `name`, `review`, `designation`, `image_path`, `added_date`) VALUES
-(2, 'Aman Akhtar', 'Quickzy Cabs ne mera daily office travel ka tension almost khatam kar diya hai. Pickup always on time hota hai aur ride comfortable rehti hai. Very reliable service.', 'Software Engineer', 'testimonial_uploads/testimonial_69a562dd2c018.png', '2026-03-02'),
+(2, 'Aman Akhtar', 'Quikzy Cabs ne mera daily office travel ka tension almost khatam kar diya hai. Pickup always on time hota hai aur ride comfortable rehti hai. Very reliable service.', 'Software Engineer', 'testimonial_uploads/testimonial_69a562dd2c018.png', '2026-03-02'),
 (3, 'Neha Verma', 'I use their shared cab service daily and honestly it’s very well managed. Drivers polite hote hain aur timing proper follow hoti hai. Good experience so far.', 'HR Executive', 'testimonial_uploads/testimonial_69a562fcc8676.png', '2026-03-02'),
 (4, 'Rahul Mehta', 'Monthly package liya hai and it’s totally worth it. Cost bhi reasonable hai aur daily booking ka headache nahi rehta. Smooth and hassle-free service.', 'IT Professional', 'testimonial_uploads/testimonial_69a563156380d.png', '2026-03-02'),
 (5, 'Pooja Malhotra', 'Weekly ride package try kiya tha and it worked perfectly for my shift timings. Hassle-free travel solution for office goers.', 'Marketing Manager', 'testimonial_uploads/testimonial_69a5634c892b2.png', '2026-03-02');

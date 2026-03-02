@@ -27,7 +27,7 @@
                         <span class="sub-title line-style">About Daily Pickup & Drop</span>
                         <h2 class="letters-slide-up text-split">Punctual Daily Office Transportation
                         </h2>
-                        <div class="text" style="text-align: justify;">Quickzy Cabs offers reliable Daily Pickup
+                        <div class="text" style="text-align: justify;">Quikzy Cabs offers reliable Daily Pickup
                             & Drop services designed to ensure smooth and punctual office commute for working
                             professionals. With structured route planning and disciplined scheduling, we provide
                             consistent door-to-door transportation that eliminates daily travel stress.</div>
