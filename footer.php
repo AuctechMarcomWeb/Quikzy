@@ -116,7 +116,7 @@
                 <ul class="footer-nav">
                     <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                   <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                   <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                 </ul>
             </div>
         </div>

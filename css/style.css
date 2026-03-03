@@ -3483,10 +3483,10 @@ Main Header
   width: 100%;
 }
 .contact-list-one li {
-    position: relative;
-    padding-left: 35px;
-    min-height: 50px;
-    margin-bottom: 20px;
+  position: relative;
+  padding-left: 35px;
+  min-height: 50px;
+  margin-bottom: 20px;
 }
 .contact-list-one li .icon {
   position: absolute;
@@ -20445,350 +20445,350 @@ div {
 /* ===== Taxi 2026 Banner Style ===== */
 
 .mobile-nav-toggler.light {
-    color: #0c0b0b;
+  color: #0c0b0b;
 }
 
 .main-header .header-lower .logo-box {
-    padding: 12px 0;
+  padding: 12px 0;
 }
 
 .main-header .logo img {
-    height: 40px;
+  height: 40px;
 }
 
 .header-style-one .header-lower .main-box .nav-outer {
-    justify-content: end;
+  justify-content: end;
 }
 
-.main-menu .navigation>li>a {
-    color: #030303;
+.main-menu .navigation > li > a {
+  color: #030303;
 }
 
 .header-style-one .header-lower {
-    position: relative;
-    background-color: unset;
+  position: relative;
+  background-color: unset;
 }
 
 .about-section .content-column .inner-column {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .about-section {
-    padding: 80px 0 22px;
-    position: relative;
+  padding: 80px 0 22px;
+  position: relative;
 }
 
 .service-section-three {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .service-section-three {
-    padding: 80px 0 120px;
+  padding: 80px 0 120px;
 }
 
 .benefit-section-two {
-    padding: 80px 0 54px;
+  padding: 80px 0 54px;
 }
 
 .booking-section-five .bg-shape2 {
-    height: 0px;
-    width: 0;
+  height: 0px;
+  width: 0;
 }
 
-
-
 .tx26-hero-wrapper {
-    overflow: hidden;
-    position: relative;
-    padding: 140px 0;
-    font-family: system-ui;
-    background-image: url('../images/1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  padding: 140px 0;
+  font-family: system-ui;
+  background-image: url("../images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* black overlay */
 .tx26-hero-wrapper::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(0 0 0 / 65%);
-    /* shadow intensity control */
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 65%);
+  /* shadow intensity control */
+  z-index: 0;
 }
 
 /* content */
 .tx26-badge {
-    background: #eef5ff;
-    padding: 4px 18px;
-    font-size: 14px;
-    border-radius: 50px;
-    font-weight: 600;
-    display: inline-block;
-    margin-bottom: 10px;
+  background: #eef5ff;
+  padding: 4px 18px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .tx26-title {
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .tx26-title span {
-    color: #f1ad0d;
+  color: #f1ad0d;
 }
 
 .tx26-subtitle {
-    font-size: 17px;
-    color: #ffffff;
-    max-width: 480px;
+  font-size: 17px;
+  color: #ffffff;
+  max-width: 480px;
 }
 
 /* buttons */
 
 .tx26-btn-group {
-    margin-top: 30px;
-    display: flex;
-    gap: 15px;
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
 }
 
 .tx26-btn-primary {
-    background: #0d6efd;
-    color: white;
-    padding: 14px 32px;
-    border-radius: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: .3s;
+  background: #0d6efd;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .tx26-btn-primary:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .tx26-btn-outline {
-    border: 2px solid #e9ecef;
-    padding: 14px 32px;
-    border-radius: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #222;
-    transition: .3s;
+  border: 2px solid #e9ecef;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+  transition: 0.3s;
 }
 
 .tx26-btn-outline:hover {
-    background: #f8f9fa;
+  background: #f8f9fa;
 }
 
 /* features */
 
 .tx26-features {
-    margin-top: 40px;
-    display: flex;
-    gap: 25px;
-    font-weight: 600;
+  margin-top: 40px;
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
 }
 
 .tx26-features i {
-    color: #0d6efd;
-    margin-right: 6px;
+  color: #0d6efd;
+  margin-right: 6px;
 }
 
 /* visual */
 
 .tx26-hero-visual {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .tx26-main-car {
-    width: 100%;
-    max-width: 480px;
-    animation: tx26-float 4s ease-in-out infinite;
+  width: 100%;
+  max-width: 480px;
+  animation: tx26-float 4s ease-in-out infinite;
 }
 
 /* floating cards */
 
 .tx26-floating-card {
-    position: absolute;
-    background: white;
-    padding: 14px 20px;
-    border-radius: 14px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
-    font-weight: 600;
-    transition: .3s;
+  position: absolute;
+  background: white;
+  padding: 14px 20px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .tx26-floating-card:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .card-1 {
-    top: 20%;
-    left: -30px;
+  top: 20%;
+  left: -30px;
 }
 
 .card-2 {
-    bottom: 20%;
-    right: -20px;
+  bottom: 20%;
+  right: -20px;
 }
 
 /* animation */
 
 @keyframes tx26-float {
-    0% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
 
-    50% {
-        transform: translateY(-18px);
-    }
+  50% {
+    transform: translateY(-18px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .booking-form-three textarea {
-    height: auto;
+  height: auto;
 }
 
 .booking-section-five .content-column .inner-column {
-    border: 1px solid rgb(252 144 7);
+  border: 1px solid rgb(252 144 7);
 }
-
 
 /* mobile responsive */
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
+  .tx26-title {
+    font-size: 36px;
+  }
 
-    .tx26-title {
-        font-size: 36px;
-    }
+  .tx26-features {
+    flex-direction: column;
+  }
 
-    .tx26-features {
-        flex-direction: column;
-    }
+  .tx26-hero-visual {
+    margin-top: 50px;
+  }
 
-    .tx26-hero-visual {
-        margin-top: 50px;
-    }
-
-    .card-1,
-    .card-2 {
-        display: none;
-    }
+  .card-1,
+  .card-2 {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
-    .tx26-hero-wrapper {
-        padding: 60px 0;
-    }
+  .tx26-hero-wrapper {
+    padding: 60px 0;
+  }
+  .page-title {
+    min-height: 150px;
+    padding: 40px 0 40px;
+  }
+  .page-title .title {
+    font-size: 33px;
+  }
 }
 
 @media (max-width: 991.98px) {
-    .work-section {
-        padding-bottom: 50px;
-    }
+  .work-section {
+    padding-bottom: 50px;
+  }
 
-    .faqs-section .faq-column .inner-column {
-        padding-top: 0px;
-    }
+  .faqs-section .faq-column .inner-column {
+    padding-top: 0px;
+  }
 }
 
 /* Add this CSS */
 #preBookingModal .input-group-text {
-    padding: 0.375rem 0.5rem;
-    font-size: 1.2rem;
-    border: 1px solid #fdcc22;
+  padding: 0.375rem 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #fdcc22;
 }
 
 #preBookingModal .form-control {
-    padding: 0.375rem 0.5rem;
+  padding: 0.375rem 0.5rem;
+  font-size: 0.95rem;
+  border: 1px solid #fdcc22;
+}
+
+@media (max-width: 576px) {
+  #preBookingModal .input-group-text,
+  #preBookingModal .form-control {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  #preBookingModal .btn {
+    padding: 10px 8px;
     font-size: 0.95rem;
-    border: 1px solid #fdcc22;
+  }
 }
 
 @media (max-width: 576px) {
-
-    #preBookingModal .input-group-text,
-    #preBookingModal .form-control {
-        padding: 0.35rem 0.5rem;
-        font-size: 0.9rem;
-    }
-
-    #preBookingModal .btn {
-        padding: 10px 8px;
-        font-size: 0.95rem;
-    }
-}
-
-@media (max-width: 576px) {
-    #preBookingModal .input-group-text {
-        display: none;
-    }
+  #preBookingModal .input-group-text {
+    display: none;
+  }
 }
 
 .sec-title .sub-title {
-    display: inline-block;
-    padding-left: 25px;
+  display: inline-block;
+  padding-left: 25px;
 }
 
 .sec-title .sub-title::before {
-
-    background-color: var(--theme-color1);
-    content: "";
-    width: 6px;
-    height: 13px;
-    left: 0;
-    position: absolute;
-    top: 6px;
-    -webkit-transform: skewX(-22deg);
-    transform: skewX(-22deg);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-
+  background-color: var(--theme-color1);
+  content: "";
+  width: 6px;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  -webkit-transform: skewX(-22deg);
+  transform: skewX(-22deg);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .sec-title .sub-title::after {
-    background-color: var(--theme-color1);
-    content: "";
-    width: 2px;
-    height: 13px;
-    left: 9px;
-    position: absolute;
-    top: 6px;
-    -webkit-transform: skewX(-22deg);
-    transform: skewX(-22deg);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+  background-color: var(--theme-color1);
+  content: "";
+  width: 2px;
+  height: 13px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  -webkit-transform: skewX(-22deg);
+  transform: skewX(-22deg);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 /* FORM LOADER */
-#fullScreenLoader{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(255,255,255,0.85);
-    backdrop-filter: blur(4px);
-    display:none;
-    align-items:center;
-    justify-content:center;
-    z-index:99999;
+#fullScreenLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
 }
 
-.loader-box{
-    background:#fff;
-    padding:30px 40px;
-    border-radius:12px;
-    box-shadow:0 10px 35px rgba(0,0,0,0.15);
+.loader-box {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
 }
