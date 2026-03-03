@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+    ob_start(function($buffer){
 
+        return preg_replace(
+            '/<img(?![^>]*loading=)([^>]+)>/i',
+            '<img loading="lazy"$1>',
+            $buffer
+        );
+    });
+?>
 <head>
     <meta charset="utf-8">
     <title>Cab Service in Noida | Book Cab in Noida | Quickzy Cabs</title>
