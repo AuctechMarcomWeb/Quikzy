@@ -32,7 +32,8 @@
                                 </li>
                                 <li><i class="icon fa fa-angle-double-right"></i> <a href="about">About Us </a>
                                 </li>
-                                <li><i class="icon fa fa-angle-double-right"></i> <a href="" class="tx26-open-modal">Cab Booking </a>
+                                <li><i class="icon fa fa-angle-double-right"></i> <a href="" class="tx26-open-modal">Cab
+                                        Booking </a>
                                 </li>
                                 <li><i class="icon fa fa-angle-double-right"></i> <a href="contact">Contact Us</a>
                                 </li>
@@ -114,9 +115,11 @@
             <div class="inner-container">
                 <div class="copyright-text">Copyright © 2026 Quikzy Cab</div>
                 <ul class="footer-nav">
-                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                   <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/people/Quikzy-Cabs/61588462616165/"><i
+                                class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/quikzycabs247/"><i
+                                class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                 </ul>
             </div>
         </div>

@@ -152,8 +152,8 @@
                         </li>
                     </ul>
                     <ul class="social-links">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/people/Quikzy-Cabs/61588462616165/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/quikzycabs247/"><i class="fab fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </nav>
